@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Electrolize&family=Frank+Ruhl+Libre:wght@300&family=Libre+Baskerville&family=Merriweather&family=Montserrat+Alternates&family=Petrona:wght@600&family=Quattrocento&family=Raleway&family=Rubik+Mono+One&family=Sacramento&family=Zilla+Slab:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color:black;
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'Electrolize', sans-serif;
+}
+
+input[type=text],input[type=text] {
+  border: 1px solid black;
+  border-radius: 10px;
+  height:30px;
+  
+  
+}
+
+input[type=radio],
+    input.radio {
+      float: left;
+      clear: none;
+      /* margin: 2px 0 0 2px; */
+    }
+#text1,#text3{
+  margin-top:20px;
+}
+
+
+li{
+list-style-type: none;
+}
+
+.filter{
+  background-color: white;
+  padding: 14px 40px;
+  border: 2px solid black;
+  color:black;
+}
+.filter:hover{
+  background-color: lightgray;
+  opacity: 0.6px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
